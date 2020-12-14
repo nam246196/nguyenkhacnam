@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+	list-style-type: none;
+}
+[class^="img_"] {
+    max-width: 350px;
+	padding: 10px;
+	background: #fff;
+	transition: all .4s;
+	opacity: .5;
+}
+[class^="background_"] {
+	background: #fff;
+	opacity: 1;
+	position: absolute;
+	transition: all .4s;
+}
+.background__forest {
+	top: 10%;
+	left: 30%;
+	transform: rotate(-3deg);
+}
+.background_forest {
+	top: 40%;
+	left: 25%;
+	transform: rotate(-7deg);
+}
+.background_paris {
+	top: 60%;
+	left: 30%;
+	transform: rotate(-10deg);
+}
+.background__paris {
+	top:33%;
+	left: 45%;
+	transform: rotate(10deg);
+}
+[class^="background_"]:hover {
+	opacity: 1;
+	z-index: 999;
+	transform: rotate(0);
+}
+[class^="img_"]:hover {
+	opacity: 1;
+}

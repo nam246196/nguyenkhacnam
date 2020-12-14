@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+.container {
+	margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.row div {
+	background: #ee5351;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: right;
+	height: 95px;
+    line-height: 95px;
+    border-radius: 5px;
+}
+.row {
+	border: 1px solid #fff;
+}

@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	margin-right: auto;
+    margin-left: auto;
+}
+ul li {
+	list-style-type: none;
+}
+body {
+	margin: auto;
+	padding: 0px;
+	font-family: roboto;
+	}
+.menu ul {
+	display: inline-block;
+	border-right: 5px solid #b6b6b6;
+	background: #f2f2f2;
+}
+.menu li {
+ padding: 0 20px;
+ display: inline-block;
+ transition: all .3s;
+}
+.menu li:first-child {
+	margin-right: 50px;
+	background: #d8d8d8;
+	font-weight: 600;
+	color: red;
+}
+.menu li:hover {
+	background: #d8d8d8;
+}
+.menu li a {
+	transition: all .3s ease;
+	color: #000000;
+	font-size: 14px;
+	padding: 15px 0;
+	display: inline-block;
+}
+.button_nav {
+	padding: 15px 10px!important;
+	background: #d8d8d8;
+}

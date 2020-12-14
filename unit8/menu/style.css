@@ -1,0 +1,130 @@
+ul {
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+body {
+  background: #eee;
+  font-family: roboto;
+}
+
+.menu-search ul {
+  background: #fff;
+  padding: 0;
+  width: 300px;
+}
+.menu-search ul li {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 13px 25px;
+  position: relative;
+}
+.menu-search ul li.active {
+  box-shadow: 0 0 5px 0px rgba(5, 0, 2, 0.2);
+  border-left: 6px solid #e57d23;
+  margin-left: -6px;
+  border-right: 6px solid #e57d23;
+  margin-right: -6px;
+}
+.menu-search ul li.active a {
+  color: #e57d23;
+}
+.menu-search ul li.active::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border: 7px solid transparent;
+  border-bottom-color: #e57d23;
+  transform: rotate(90deg);
+  top: 28px;
+  left: -1px;
+}
+.menu-search ul li.active::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border: 7px solid transparent;
+  border-bottom-color: #e57d23;
+  transform: rotate(-90deg);
+  top: 28px;
+  right: -1px;
+}
+.menu-search ul li .dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  display: inline-block;
+  right: -100%;
+  transition: all 0.3s ease;
+  top: 15px;
+  border-left: 6px solid #e57d23;
+  margin-left: -6px;
+  left: inherit;
+  border-radius: 0;
+}
+.menu-search ul li .dropdown-menu::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  border: 7px solid transparent;
+  border-bottom-color: #e57d23;
+  transform: rotate(-90deg);
+  top: 28px;
+  left: -19px;
+}
+.menu-search ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-search ul li a i {
+  padding-right: 5px;
+  font-size: 20px;
+}
+.menu-search ul li a span {
+  font-weight: 400;
+  display: block;
+  padding-left: 30px;
+  font-size: 13px;
+}
+.menu-search ul li:hover > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  top: -3px;
+}
+.menu-search ul li:hover > a {
+  color: #e57d23;
+}
+.menu-search ul li .search {
+  display: flex;
+}
+.menu-search ul li .search input {
+  outline: none;
+  border: 1px solid #e8e8e8;
+  border-right: none;
+  padding: 9px 15px;
+  width: 90%;
+}
+.menu-search ul li .search button {
+  border: none;
+  outline: none;
+  background: #e57d23;
+  color: #fff;
+  width: 50px;
+}
+.menu-search ul li:last-child {
+  border-bottom: none;
+}
+.menu-search ul li li a {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */

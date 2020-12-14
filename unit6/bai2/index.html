@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-pet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row blog">
+            <div class="col-sm-5">
+
+                <img src="img/430x530.png" alt="">
+            </div>
+
+            <div class="col-sm-7">
+                <div class="form">
+                    <h4 class="title">Titre de I'article</h4>
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <label for="">Name <input type="text" placeholder="Pet's name"></label>
+                        <label for="avatar"><input id="avatar" type="file" name="avatar"><div class="up_avatar"><i class="fas fa-camera"></i></div> Upload a photo</label>
+                        <label for="">Breed <input placeholder="Pet's breed" type="text"></label>
+                        <label for="">Birthday <input placeholder="MM/DD/YYY" type="date"></label>
+                        <label for="">Gender
+                            <div class="sender">
+                                <input id="Female" type="radio" name="checksender">
+                                <label id="Female" for="">Female</label>
+                                <input id="Male" type="radio" name="checksender">
+                                <label id="Male" check for="">Male</label>
+                            </div>
+                        </label>
+                        <label for="">Spayed or Neutered
+                            <div class="spayed">
+                                <input type="radio" name="checkspayed">
+                                <label for="">Spayed</label>
+                                <input type="radio" name="checkspayed">
+                                <label for="">Neutered</label>
+                            </div>
+                        </label>
+                        <label class="width_100" for="">Weight
+                            <div class="weight">
+                                <input type="radio" name="checkweight">
+                                <label for="">0-25 lbs</label>
+                                <input type="radio" name="checkweight">
+                                <label for="">25-50 lbs</label>
+                                <input type="radio" name="checkweight">
+                                <label for="">50-100 lbs</label>
+                                <input type="radio" name="checkweight">
+                                <label for="">100 + lbs</label>
+                            </div>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

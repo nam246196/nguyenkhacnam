@@ -1,0 +1,23 @@
+{
+  "name": "khacnam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch unit9/scss/style.scss -o unit9/scss/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nam246196/khacnam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nam246196/khacnam/issues"
+  },
+  "homepage": "https://github.com/nam246196/khacnam#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
