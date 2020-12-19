@@ -1,4 +1,10 @@
-const reverse = ['a', 1, '9', 'apple'].reduceRight(
-  (accumulator, currentValue) => accumulator.concat(currentValue)
-)
-console.log(reverse)
+// lesson 2
+function reverseArray(list) {
+  array = [];
+  list.forEach(stack);
+  return array;
+}
+function stack(item) {
+  array.unshift(item);
+}
+let array;
